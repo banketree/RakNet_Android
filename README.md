@@ -20,6 +20,11 @@ include $(BUILD_STATIC_LIBRARY)
 如果要添加第三方库，则直接添加。
 
 Application.mk内容如下：
+APP_OPTIM := release
+APP_PLATFORM := android-8
+APP_CPPFLAGS += -frtti
+APP_CPPFLAGS += -fexceptions
+APP_CPPFLAGS += -DANDROID
 APP_MODULES := libraknet
 APP_STL := gnustl_static  指定application里要链接的标准c++库。
 
@@ -29,6 +34,4 @@ LOCAL_LDLIBS 	:= -llog
 LOCAL_LDFLAGS := -L./jni  -lraknet
 
 
-
-
-
+第三方库可JNI调用
