@@ -20,6 +20,7 @@ namespace RakNet
 {
 /// Class to write a series of variables, copy the contents to memory, and return if the newly written value is different than what was last written
 /// Can also encode the reads, writes, and results directly to/from a bitstream
+//±äÁ¿¼àÌı
 class VariableListDeltaTracker
 {
 public:

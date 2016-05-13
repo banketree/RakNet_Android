@@ -12,7 +12,7 @@
 #define __SIGNALED_EVENT_H
 
 
-
+//пе╨ейб╪Ч
 #if   defined(_WIN32)
 #include "WindowsIncludes.h"
 

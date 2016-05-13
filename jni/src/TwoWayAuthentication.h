@@ -12,7 +12,7 @@
 /// \brief Implements two way authentication
 /// \details Given two systems, each of whom known a common password, verify the password without transmitting it
 /// This can be used to determine what permissions are should be allowed to the other system
-///
+/// 双向认证
 
 
 #include "NativeFeatureIncludes.h"
@@ -53,6 +53,8 @@ namespace RakNet
 /// Forward declarations
 class RakPeerInterface;
 
+///单项认证：就是比如你有个密码 用户名 然后和服务器上的用户信息进行比对 一致的话你们就可以建立连接.
+///	双向认证就是：你有个密码 用户名 你先发给服务器进行比对，如果一致服务器再把它的密码用户名发到你机器上与你机器上保留的用户信息进行比对 如果还一致则建立链接！
 /// \brief Implements two way authentication
 /// \details Given two systems, each of whom known a common password / identifier pair, verify the password without transmitting it
 /// This can be used to determine what permissions are should be allowed to the other system

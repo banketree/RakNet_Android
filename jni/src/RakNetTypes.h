@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Types used by RakNet, most of which involve user code.
-///
+/// 使用网络类型
 
 
 #ifndef __NETWORK_TYPES_H
@@ -428,7 +428,7 @@ typedef uint64_t NetworkID;
 struct Packet
 {
 	/// The system that send this packet.
-	SystemAddress systemAddress;
+	SystemAddress systemAddress; //地址信息
 
 	/// A unique identifier for the system that sent this packet, regardless of IP address (internal / external / remote system)
 	/// Only valid once a connection has been established (ID_CONNECTION_REQUEST_ACCEPTED, or ID_NEW_INCOMING_CONNECTION)

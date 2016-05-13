@@ -9,7 +9,7 @@
  */
 
 /// \file FileListTransferCBInterface.h
-///
+///文件列表传输接口
 
 
 #ifndef __FILE_LIST_TRANSFER_CALLBACK_INTERFACE_H
@@ -28,7 +28,7 @@ namespace RakNet
 /// \brief Used by FileListTransfer plugin as a callback for when we get a file.
 /// \details You get the last file when fileIndex==numberOfFilesInThisSet
 /// \sa FileListTransfer
-class FileListTransferCBInterface
+class FileListTransferCBInterface //文件传输回调接口
 {
 public:
 	// Note: If this structure is changed the struct in the swig files need to be changed as well

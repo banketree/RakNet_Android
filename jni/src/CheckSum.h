@@ -11,7 +11,7 @@
 ///
 /// \file CheckSum.cpp
 /// \brief [Internal] CheckSum implementation from http://www.flounder.com/checksum.htm
-///
+/// Ð£ÑéºÍ
 
 #ifndef __CHECKSUM_H
 #define __CHECKSUM_H

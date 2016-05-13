@@ -27,6 +27,7 @@
 #include "GetTime.h"
 #include "Export.h"
 
+//连接图
 namespace RakNet
 {
 /// Forward declarations
@@ -37,7 +38,7 @@ class RakPeerInterface;
 /// All identifiers are followed by SystemAddress, then RakNetGUID
 /// Also stores the list for you, which you can access with GetConnectionListForRemoteSystem 
 /// \ingroup CONNECTION_GRAPH_GROUP
-class RAK_DLL_EXPORT ConnectionGraph2 : public PluginInterface2
+class RAK_DLL_EXPORT ConnectionGraph2 : public PluginInterface2 //跳转连接图插件
 {
 public:
 

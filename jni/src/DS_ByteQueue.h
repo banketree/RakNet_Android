@@ -11,7 +11,7 @@
 /// \file DS_ByteQueue.h
 /// \internal
 /// \brief Byte queue
-///
+///×Ö½Ú²éÑ¯
 
 
 #ifndef __BYTE_QUEUE_H

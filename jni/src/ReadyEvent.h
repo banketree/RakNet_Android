@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Ready event plugin.  This enables a set of systems to create a signal event, set this signal as ready or unready, and to trigger the event when all systems are ready
-///
+/// ×¼±¸²å¼þ
 
 
 #include "NativeFeatureIncludes.h"

@@ -7,7 +7,7 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  *
  */
-
+//Íø¸ñ
 #ifndef _GRID_SECTORIZER_H
 #define _GRID_SECTORIZER_H
 

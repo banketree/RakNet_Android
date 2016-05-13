@@ -11,7 +11,7 @@
 /// \file DS_OrderedChannelHeap.h
 /// \internal
 /// \brief Ordered Channel Heap .  This is a heap where you add to it on multiple ordered channels, with each channel having a different weight.
-///
+/// Ë³Ðò¶Ñ
 
 
 #ifndef __RAKNET_ORDERED_CHANNEL_HEAP_H

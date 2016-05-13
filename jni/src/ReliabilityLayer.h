@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief \b [Internal] Datagram reliable, ordered, unordered and sequenced sends.  Flow control.  Message splitting, reassembly, and coalescence.
-///
+///Êý¾Ý²ã
 
 
 #ifndef __RELIABILITY_LAYER_H

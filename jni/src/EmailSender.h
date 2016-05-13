@@ -10,7 +10,7 @@
 
 /// \file EmailSender.h
 /// \brief Rudimentary class to send email from code.  Don't expect anything fancy.
-///
+///” œ‰∑¢ÀÕ’ﬂ
 
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_EmailSender==1 && _RAKNET_SUPPORT_TCPInterface==1 && _RAKNET_SUPPORT_FileOperations==1

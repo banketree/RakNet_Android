@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Contains enumerations used by the ReplicaManager system.  This file is a lightweight header, so you can include it without worrying about linking in lots of other crap
-///
+/// 复制管理系统
 
 
 
@@ -19,7 +19,7 @@
 
 /// Replica interface flags, used to enable and disable function calls on the Replica object
 /// Passed to ReplicaManager::EnableReplicaInterfaces and ReplicaManager::DisableReplicaInterfaces
-enum
+enum //复制接口标志，用于启用和禁用的函数调用的复制对象
 {
 	REPLICA_RECEIVE_DESTRUCTION=1<<0,
 	REPLICA_RECEIVE_SERIALIZE=1<<1,

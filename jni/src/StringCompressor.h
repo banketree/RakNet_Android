@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief \b Compresses/Decompresses ASCII strings and writes/reads them to BitStream class instances.  You can use this to easily serialize and deserialize your own strings.
-///
+///×Ö·û´®Ñ¹Ëõ
 
 
 

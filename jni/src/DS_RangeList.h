@@ -11,7 +11,7 @@
 /// \file DS_RangeList.h
 /// \internal
 /// \brief A queue implemented as a linked list.
-///
+/// À≥–Ú¡¥±Ì
 
 
 #ifndef __RANGE_LIST_H

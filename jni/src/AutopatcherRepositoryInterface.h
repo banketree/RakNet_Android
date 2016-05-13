@@ -11,7 +11,7 @@
 ///
 /// \file AutopatcherRepositoryInterface.h
 /// \brief An interface used by AutopatcherServer to get the data necessary to run an autopatcher.
-///
+///更新 获取重要的数据接口
 
 
 #ifndef __AUTOPATCHER_REPOSITORY_INTERFACE_H
@@ -37,6 +37,7 @@ public:
 	/// \param[in] An input date, in whatever format your repository uses
 	/// \param[out] currentDate The current server date, in whatever format your repository uses
 	/// \return True on success, false on failure.
+	//获取改变的数据
 	virtual bool GetChangelistSinceDate(const char *applicationName, FileList *addedOrModifiedFilesWithHashData, FileList *deletedFiles, double sinceDate)=0;
 
 	/// Get patches (or files) for every file in input, assuming that input has a hash for each of those files.
@@ -45,6 +46,7 @@ public:
 	/// \param[out] patchList You should return list of files with either the filedata or the patch.  This is a subset of \a input.  The context data for each file will be either PC_WRITE_FILE (to just write the file) or PC_HASH_WITH_PATCH (to patch).  If PC_HASH_WITH_PATCH, then the file contains a SHA1_LENGTH byte patch followed by the hash.  The datalength is patchlength + SHA1_LENGTH
 	/// \param[out] currentDate The current server date, in whatever format your repository uses
 	/// \return 1 on success, 0 on database failure, -1 on tried to download original unmodified file
+	//获取补丁包
 	virtual int GetPatches(const char *applicationName, FileList *input, bool allowDownloadOfOriginalUnmodifiedFiles, FileList *patchList)=0;
 
 	/// For the most recent update, return files that were patched, added, or deleted. For files that were patched, return both the patch in \a patchedFiles and the current version in \a updatedFiles
@@ -55,6 +57,7 @@ public:
 	/// \param[out] deletedFiles A list of the current versions of filenames that were deleted in the most recent patch
 	/// \param[out] whenPatched time in seconds since epoch when patched. Use time() function to get this in C
 	/// \return true on success, false on failure
+	//获取补丁
 	virtual bool GetMostRecentChangelistWithPatches(
 		RakNet::RakString &applicationName,
 		FileList *patchedFiles,
@@ -65,9 +68,11 @@ public:
 		double *mostRecentRowPatchTime)=0;
 
 	/// \return Whatever this function returns is sent from the AutopatcherServer to the AutopatcherClient when one of the above functions returns false.
+	//获取最近的错误
 	virtual const char *GetLastError(void) const=0;
 
 	/// \return Passed to FileListTransfer::Send() as the _chunkSize parameter.
+	//获取增量数据
 	virtual const int GetIncrementalReadChunkSize(void) const=0;
 };
 

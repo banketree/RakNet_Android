@@ -7,7 +7,7 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  *
  */
-
+//∂®“Â
 #ifndef __RAKNET_DEFINES_H
 #define __RAKNET_DEFINES_H
 

@@ -15,6 +15,7 @@
 
 #include <stdarg.h>
 
+//±äÁ¿sql·ÖÎö
 namespace VariadicSQLParser
 {
 	struct IndexAndType

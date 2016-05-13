@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Contains the NAT-punchthrough plugin for the client.
-///
+/// ´©Í¸²å¼þ
 
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_NatPunchthroughClient==1

@@ -10,7 +10,7 @@
 
 /// \file Rackspace.h
 /// \brief Helper to class to manage Rackspace servers
-///
+///管理服务器空间
 
 
 #include "NativeFeatureIncludes.h"

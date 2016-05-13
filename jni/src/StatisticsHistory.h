@@ -10,7 +10,7 @@
 
 /// \file StatisticsHistory.h
 /// \brief Input numerical values over time. Get sum, average, highest, lowest, standard deviation on recent or all-time values
-
+//统计记录（输入的数值和时间）
 
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_StatisticsHistory==1

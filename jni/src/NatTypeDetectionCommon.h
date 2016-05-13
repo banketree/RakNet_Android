@@ -12,6 +12,7 @@
 /// \brief Use a remote server with multiple IP addresses to determine what type of NAT your router is using
 /// \details
 /// \ingroup PLUGINS_GROUP
+//网络类型匹配 通用
 
 #ifndef __NAT_TYPE_DETECTION_COMMON_H
 #define __NAT_TYPE_DETECTION_COMMON_H

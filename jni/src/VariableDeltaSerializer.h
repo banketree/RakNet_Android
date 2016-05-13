@@ -18,6 +18,7 @@
 #include "PacketPriority.h"
 #include "DS_OrderedList.h"
 
+//变量序列化
 namespace RakNet
 {
 

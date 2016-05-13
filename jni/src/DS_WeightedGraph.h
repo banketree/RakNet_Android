@@ -12,7 +12,7 @@
 /// \internal
 /// \brief Weighted graph.  
 /// \details I'm assuming the indices are complex map types, rather than sequential numbers (which could be implemented much more efficiently).
-///
+///重量图
 
 
 #ifndef __WEIGHTED_GRAPH_H
@@ -38,7 +38,7 @@
 namespace DataStructures
 {
 	template <class node_type, class weight_type, bool allow_unlinkedNodes>
-	class RAK_DLL_EXPORT WeightedGraph
+	class RAK_DLL_EXPORT WeightedGraph //权重图
 	{
 	public:
 		static void IMPLEMENT_DEFAULT_COMPARISON(void) {DataStructures::defaultMapKeyComparison<node_type>(node_type(),node_type());}

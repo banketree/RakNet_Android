@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Remote procedure call, supporting C functions only. No external dependencies required.
-///
+///远程调用call
 
 
 #include "NativeFeatureIncludes.h"
@@ -47,14 +47,14 @@ class NetworkIDManager;
 	/// \details Error code follows packet ID ID_RPC_REMOTE_ERROR, that is packet->data[1]<BR>
 	/// Name of the function will be appended starting at packet->data[2]
 	/// \ingroup RPC_PLUGIN_GROUP
-	enum RPCErrorCodes
+	enum RPCErrorCodes //错误码
 	{
 		/// Named function was not registered with RegisterFunction(). Check your spelling.
 		RPC_ERROR_FUNCTION_NOT_REGISTERED,
 	};
 
 	/// \brief Instantiate this class globally if you want to register a function with RPC4 at the global space
-	class RAK_DLL_EXPORT RPC4GlobalRegistration
+	class RAK_DLL_EXPORT RPC4GlobalRegistration //记录
 	{
 	public:
 		/// \brief Queue a call to RPC4::RegisterFunction() globally. Actual call occurs once RPC4 is attached to an instance of RakPeer or TCPInterface.

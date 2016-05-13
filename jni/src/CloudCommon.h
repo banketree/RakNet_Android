@@ -7,7 +7,7 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  *
  */
-
+//云功能 通用
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_CloudClient==1 || _RAKNET_SUPPORT_CloudServer==1
 
@@ -25,7 +25,7 @@ struct CloudQueryRow;
 
 /// Allocates CloudQueryRow and the row data. Override to use derived classes or different allocators
 /// \ingroup CLOUD_GROUP
-class RAK_DLL_EXPORT CloudAllocator
+class RAK_DLL_EXPORT CloudAllocator //远端生成
 {
 public:
 	CloudAllocator() {}
@@ -43,7 +43,7 @@ public:
 
 /// Serves as a key to identify data uploaded to or queried from the server.
 /// \ingroup CLOUD_GROUP
-struct RAK_DLL_EXPORT CloudKey
+struct RAK_DLL_EXPORT CloudKey //云端密钥
 {
 	CloudKey() {}
 	CloudKey(RakNet::RakString _primaryKey, uint32_t _secondaryKey) : primaryKey(_primaryKey), secondaryKey(_secondaryKey) {}
@@ -65,7 +65,7 @@ int CloudKeyComp(const CloudKey &key, const CloudKey &data);
 
 /// Data members used to query the cloud
 /// \ingroup CLOUD_GROUP
-struct RAK_DLL_EXPORT CloudQuery
+struct RAK_DLL_EXPORT CloudQuery //云端查询
 {
 	CloudQuery() {startingRowIndex=0; maxRowsToReturn=0; subscribeToResults=false;}
 
@@ -88,7 +88,7 @@ struct RAK_DLL_EXPORT CloudQuery
 };
 
 /// \ingroup CLOUD_GROUP
-struct RAK_DLL_EXPORT CloudQueryRow
+struct RAK_DLL_EXPORT CloudQueryRow //云端查询节点
 {
 	/// Key used to identify this data
 	CloudKey key;
@@ -116,7 +116,7 @@ struct RAK_DLL_EXPORT CloudQueryRow
 };
 
 /// \ingroup CLOUD_GROUP
-struct RAK_DLL_EXPORT CloudQueryResult
+struct RAK_DLL_EXPORT CloudQueryResult //云端查询结果
 {
 	/// Query originally passed to Download()
 	CloudQuery cloudQuery;

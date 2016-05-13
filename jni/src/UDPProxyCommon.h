@@ -41,7 +41,8 @@ UDPProxyCoordinator:
 
 // Stored in the second byte after ID_UDP_PROXY_GENERAL
 // Otherwise MessageIdentifiers.h is too cluttered and will hit the limit on enumerations in a single byte
-enum UDPProxyMessages
+//udp代理消息
+enum UDPProxyMessages //消息类型
 {
 	ID_UDP_PROXY_FORWARDING_SUCCEEDED,
 	ID_UDP_PROXY_FORWARDING_NOTIFICATION,

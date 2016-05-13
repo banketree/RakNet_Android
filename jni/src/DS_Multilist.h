@@ -11,7 +11,7 @@
 /// \file DS_Multilist.h
 /// \internal
 /// \brief ADT that can represent an unordered list, ordered list, stack, or queue with a common interface
-///
+/// ∂‡¡¥±Ì
 
 #ifndef __MULTILIST_H
 #define __MULTILIST_H 

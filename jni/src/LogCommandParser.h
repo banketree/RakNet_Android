@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Contains LogCommandParser , Used to send logs to connected consoles
-///
+/// »’÷æ∑÷Œˆ
 
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_LogCommandParser==1

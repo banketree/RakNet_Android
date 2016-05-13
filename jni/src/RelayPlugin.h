@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Contains the class RelayPlugin
-///
+///延迟插件
 
 
 #include "NativeFeatureIncludes.h"
@@ -63,7 +63,7 @@ enum RelayPluginEnums
 
 /// \brief A simple class to relay messages from one system to another, identifying remote systems by a string.
 /// \ingroup RELAY_PLUGIN_GROUP
-class RAK_DLL_EXPORT RelayPlugin : public PluginInterface2
+class RAK_DLL_EXPORT RelayPlugin : public PluginInterface2 //通过一个字符串的识别远程系统
 {
 public:
 	// GetInstance() and DestroyInstance(instance*)

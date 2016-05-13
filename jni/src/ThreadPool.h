@@ -22,6 +22,7 @@
 #pragma warning( push )
 #endif
 
+//Ïß³Ì³Ø
 class ThreadDataInterface
 {
 public:

@@ -9,7 +9,7 @@
  */
 
 /// \file DS_MemoryPool.h
-///
+///ÄÚ´æ¹¤¾ß
 
 
 #ifndef __MEMORY_POOL_H

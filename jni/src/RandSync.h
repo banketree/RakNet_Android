@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief \b [Internal] Random number generator
-///
+/// Ëæ»úÊı
 
 
 

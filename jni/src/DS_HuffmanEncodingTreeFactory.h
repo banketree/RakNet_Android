@@ -11,7 +11,7 @@
 /// \file DS_HuffmanEncodingTreeFactory.h
 /// \internal
 /// \brief Creates instances of the class HuffmanEncodingTree
-///
+/// ¹ÜÀí¹ş·òÂü±àÂë
 
  
 #ifndef __HUFFMAN_ENCODING_TREE_FACTORY

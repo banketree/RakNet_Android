@@ -11,7 +11,7 @@
 /// \file DynDNS.h
 /// \brief Helper to class to update DynDNS
 /// This can be used to determine what permissions are should be allowed to the other system
-///
+/// 动态域
 
 
 #include "NativeFeatureIncludes.h"
@@ -27,7 +27,7 @@ namespace RakNet
 
 class TCPInterface;
 
-enum DynDnsResultCode
+enum DynDnsResultCode //返回结果
 {
 	// ----- Success -----
 	RC_SUCCESS,

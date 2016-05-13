@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief \b [Internal] A single node in the Huffman Encoding Tree.
-///
+///¹þ·òÂü½Úµã
 
 #ifndef __HUFFMAN_ENCODING_TREE_NODE
 #define __HUFFMAN_ENCODING_TREE_NODE

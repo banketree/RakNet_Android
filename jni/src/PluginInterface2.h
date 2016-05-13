@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief \b RakNet's plugin functionality system, version 2.  You can derive from this to create your own plugins.
-///
+///插件接口
 
 
 #ifndef __PLUGIN_INTERFACE_2_H
@@ -36,7 +36,7 @@ struct InternalPacket;
 
 /// For each message that arrives on an instance of RakPeer, the plugins get an opportunity to process them first. This enumeration represents what to do with the message
 /// \ingroup PLUGIN_INTERFACE_GROUP
-enum PluginReceiveResult
+enum PluginReceiveResult //返回结果
 {
 	/// The plugin used this message and it shouldn't be given to the user.
 	RR_STOP_PROCESSING_AND_DEALLOCATE=0,
@@ -50,7 +50,7 @@ enum PluginReceiveResult
 
 /// Reasons why a connection was lost
 /// \ingroup PLUGIN_INTERFACE_GROUP
-enum PI2_LostConnectionReason
+enum PI2_LostConnectionReason //丢失原因
 {
 	/// Called RakPeer::CloseConnection()
 	LCR_CLOSED_BY_USER,
@@ -64,7 +64,7 @@ enum PI2_LostConnectionReason
 
 /// Returns why a connection attempt failed
 /// \ingroup PLUGIN_INTERFACE_GROUP
-enum PI2_FailedConnectionAttemptReason
+enum PI2_FailedConnectionAttemptReason //失败原因
 {
 	FCAR_CONNECTION_ATTEMPT_FAILED,
 	FCAR_ALREADY_CONNECTED,
@@ -86,37 +86,37 @@ enum PI2_FailedConnectionAttemptReason
 /// -Updates over time, when RakPeer::Receive() is called
 ///
 /// \ingroup PLUGIN_INTERFACE_GROUP
-class RAK_DLL_EXPORT PluginInterface2
+class RAK_DLL_EXPORT PluginInterface2  //插件类
 {
 public:
 	PluginInterface2();
 	virtual ~PluginInterface2();
 
 	/// Called when the interface is attached
-	virtual void OnAttach(void) {}
+	virtual void OnAttach(void) {} //绑定
 
 	/// Called when the interface is detached
-	virtual void OnDetach(void) {}
+	virtual void OnDetach(void) {} //断开
 
 	/// Update is called every time a packet is checked for .
-	virtual void Update(void) {}
+	virtual void Update(void) {} //更新
 
 	/// OnReceive is called for every packet.
 	/// \param[in] packet the packet that is being returned to the user
 	/// \return True to allow the game and other plugins to get this message, false to absorb it
-	virtual PluginReceiveResult OnReceive(Packet *packet) {(void) packet; return RR_CONTINUE_PROCESSING;}
+	virtual PluginReceiveResult OnReceive(Packet *packet) {(void) packet; return RR_CONTINUE_PROCESSING;} //接收到数据，进行处理
 
 	/// Called when RakPeer is initialized
-	virtual void OnRakPeerStartup(void) {}
+	virtual void OnRakPeerStartup(void) {} //启动
 
 	/// Called when RakPeer is shutdown
-	virtual void OnRakPeerShutdown(void) {}
+	virtual void OnRakPeerShutdown(void) {}//关闭
 
 	/// Called when a connection is dropped because the user called RakPeer::CloseConnection() for a particular system
 	/// \param[in] systemAddress The system whose connection was closed
 	/// \param[in] rakNetGuid The guid of the specified system
 	/// \param[in] lostConnectionReason How the connection was closed: manually, connection lost, or notification of disconnection
-	virtual void OnClosedConnection(const SystemAddress &systemAddress, RakNetGUID rakNetGUID, PI2_LostConnectionReason lostConnectionReason ){(void) systemAddress; (void) rakNetGUID; (void) lostConnectionReason;}
+	virtual void OnClosedConnection(const SystemAddress &systemAddress, RakNetGUID rakNetGUID, PI2_LostConnectionReason lostConnectionReason ){(void) systemAddress; (void) rakNetGUID; (void) lostConnectionReason;} 
 
 	/// Called when we got a new connection
 	/// \param[in] systemAddress Address of the new connection

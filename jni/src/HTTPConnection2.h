@@ -10,7 +10,7 @@
 
 /// \file HTTPConnection2.h
 /// \brief Contains HTTPConnection2, used to communicate with web servers
-///
+///httpÁ¬½Ó²å¼þ
 
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_HTTPConnection2==1 && _RAKNET_SUPPORT_TCPInterface==1

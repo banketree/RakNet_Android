@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Router2 plugin. Allows you to connect to a system by routing packets through another system that is connected to both you and the destination. Useful for getting around NATs.
-///
+/// 路由器插件
 
 
 #include "NativeFeatureIncludes.h"
@@ -51,7 +51,7 @@ struct Router2DebugInterface
 /// \ingroup ROUTER_2_GROUP
 /// \brief Class interface for the Router2 system
 /// \details
-class RAK_DLL_EXPORT Router2 : public PluginInterface2
+class RAK_DLL_EXPORT Router2 : public PluginInterface2 //通过一个共享的连接路由连接系统
 {
 public:
 	// GetInstance() and DestroyInstance(instance*)

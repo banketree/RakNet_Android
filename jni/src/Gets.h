@@ -7,7 +7,7 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  *
  */
-
+//获取一组字符
 #ifndef __GETS__H_
 #define __GETS__H_
 

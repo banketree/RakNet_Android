@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief \b [Internal] Passes queued data between threads using a circular buffer with read and write pointers
-///
+///通过使用一个循环缓冲区队列中读写指针线程之间的数据
 
 
 

@@ -11,7 +11,7 @@
 /// \file DirectoryDeltaTransfer.h
 /// \brief Simple class to send changes between directories.  
 /// \details In essence, a simple autopatcher that can be used for transmitting levels, skins, etc.
-///
+///文件目录传输
 
 
 #include "NativeFeatureIncludes.h"

@@ -10,7 +10,7 @@
 
 /// \file GetTime.h
 /// \brief Returns the value from QueryPerformanceCounter.  This is the function RakNet uses to represent time. This time won't match the time returned by GetTimeCount(). See http://www.jenkinssoftware.com/forum/index.php?topic=2798.0
-///
+///获取时间
 
 
 #ifndef __GET_TIME_H

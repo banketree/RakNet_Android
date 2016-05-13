@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Contains RakNetCommandParser , used to send commands to an instance of RakPeer
-///
+/// Õ®”√Ω‚Œˆ
 
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_RakNetCommandParser==1

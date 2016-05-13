@@ -11,7 +11,7 @@
 /// \file DS_QueueLinkedList.h
 /// \internal
 /// \brief A queue implemented as a linked list.
-///
+///∂”¡–¡¥±Ì
 
 
 #ifndef __QUEUE_LINKED_LIST_H

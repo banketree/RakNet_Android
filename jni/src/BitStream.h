@@ -11,7 +11,7 @@
 /// \file BitStream.h
 /// \brief This class allows you to write and read native types as a string of bits.  
 /// \details BitStream is used extensively throughout RakNet and is designed to be used by users as well.
-///
+/// 比特流 流结构
 
 
 #if defined(_MSC_VER) && _MSC_VER < 1299 // VC6 doesn't support template specialization

@@ -10,7 +10,7 @@
 
 /// \internal
 /// \brief Hashing container
-///
+///¹şÏ£Öµ´æÖü
 
 
 #ifndef __HASH_H

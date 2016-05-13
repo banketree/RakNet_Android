@@ -11,7 +11,7 @@
 /// \file FullyConnectedMesh2.h
 /// \brief Fully connected mesh plugin, revision 2.  
 /// \details This will connect RakPeer to all connecting peers, and all peers the connecting peer knows about.
-///
+///±•∫Õ¡¥Ω”
 
 
 #include "NativeFeatureIncludes.h"

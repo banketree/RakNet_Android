@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief A RakNet plugin performing networking to communicate with UDPProxyCoordinator. Ultimately used to tell UDPProxyServer to forward UDP packets.
-
+//udp代理客户端
 
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_UDPProxyClient==1
@@ -34,7 +34,7 @@ class UDPProxyClient;
 
 /// Callback to handle results of calling UDPProxyClient::RequestForwarding()
 /// \ingroup UDP_PROXY_GROUP
-struct UDPProxyClientResultHandler
+struct UDPProxyClientResultHandler //客户端返回
 {
 	UDPProxyClientResultHandler() {}
 	virtual ~UDPProxyClientResultHandler() {}
@@ -171,7 +171,6 @@ protected:
 	void OnPingServers(Packet *packet);
 	void Clear(void);
 	UDPProxyClientResultHandler *resultHandler;
-
 };
 
 } // End namespace

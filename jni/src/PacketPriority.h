@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief This file contains enumerations for packet priority and reliability enumerations.
-///
+///此文件包含枚举枚举分组优先级和可靠性
 
 
 

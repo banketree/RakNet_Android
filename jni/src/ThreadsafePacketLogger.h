@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Derivation of the packet logger to defer the call to WriteLog until the user thread.
-///
+///线性安全数据包 日志
 
 
 #include "NativeFeatureIncludes.h"

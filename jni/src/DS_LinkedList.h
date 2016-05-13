@@ -11,7 +11,7 @@
 /// \file DS_LinkedList.h
 /// \internal
 /// \brief Straightforward linked list data structure.
-///
+///Á´±í
 
 
 #ifndef __LINKED_LIST_H

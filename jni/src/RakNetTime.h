@@ -13,7 +13,7 @@
 
 #include "NativeTypes.h"
 #include "RakNetDefines.h"
-
+//Ê±¼ä
 namespace RakNet {
 
 // Define __GET_TIME_64BIT if you want to use large types for GetTime (takes more bandwidth when you transmit time though!)

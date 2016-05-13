@@ -1,7 +1,7 @@
 ///
 /// Original file by the_viking, fixed by Rômulo Fernandes
 /// Should emulate windows finddata structure
-///
+///快速查找
 
 #ifndef GCC_FINDFIRST_H
 #define GCC_FINDFIRST_H

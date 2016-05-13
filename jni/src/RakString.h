@@ -36,6 +36,7 @@ class BitStream;
 /// -Reference counting: Suitable to store in lists
 /// -Variadic assignment operator
 /// -Doesn't cause linker errors
+//自定义字符串处理
 class RAK_DLL_EXPORT RakString
 {
 public:

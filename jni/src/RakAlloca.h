@@ -7,7 +7,7 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  *
  */
-
+//ÄÚ´æÉêÇë
 #if defined(__FreeBSD__)
 #include <stdlib.h>
 

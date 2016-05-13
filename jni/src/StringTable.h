@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief A simple class to encode and decode known strings based on a lookup table.  Similar to the StringCompressor class.
-///
+///×Ö·û´®±àÂëÓë½âÂë
 
 
 

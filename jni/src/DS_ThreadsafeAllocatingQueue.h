@@ -11,6 +11,7 @@
 /// \file DS_ThreadsafeAllocatingQueue.h
 /// \internal
 /// A threadsafe queue, that also uses a memory pool for allocation
+//线性安全队列
 
 #ifndef __THREADSAFE_ALLOCATING_QUEUE
 #define __THREADSAFE_ALLOCATING_QUEUE

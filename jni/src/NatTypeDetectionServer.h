@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Contains the NAT-type detection code for the server
-///
+/// 网络类型匹配服务端
 
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_NatTypeDetectionServer==1
@@ -53,7 +53,7 @@ struct Packet;
 /// \sa NatTypeDetectionClient
 /// \ingroup NAT_TYPE_DETECTION_GROUP
 class RAK_DLL_EXPORT NatTypeDetectionServer : public PluginInterface2, public RNS2EventHandler
-{
+{ //服务端
 public:
 
 	// GetInstance() and DestroyInstance(instance*)

@@ -10,7 +10,7 @@
 
 /// \file HTTPConnection.h
 /// \brief Contains HTTPConnection, used to communicate with web servers
-///
+///http¡¨Ω”
 
 
 #include "NativeFeatureIncludes.h"

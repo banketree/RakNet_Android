@@ -10,7 +10,7 @@
 
 /// \file CloudClient.h
 /// \brief Queries CloudMemoryServer to download data that other clients have uploaded
-///
+/// 云端 查询服务器下载数据
 
 
 #include "NativeFeatureIncludes.h"

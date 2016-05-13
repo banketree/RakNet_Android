@@ -17,6 +17,7 @@
 
 #include "BitStream.h"
 
+//文件列表节点
 struct FileListNodeContext
 {
 	FileListNodeContext() {dataPtr=0; dataLength=0;}

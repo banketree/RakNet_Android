@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Contains TransportInterface from which you can derive custom transport providers for ConsoleServer.
-///
+/// 传输接口
 
 
 
@@ -31,7 +31,7 @@ class CommandParserInterface;
 
 /// \brief Defines an interface that is used to send and receive null-terminated strings.
 /// \details In practice this is only used by the CommandParser system for for servers.
-class RAK_DLL_EXPORT TransportInterface
+class RAK_DLL_EXPORT TransportInterface //用于发送和接收的字符串
 {
 public:
 	TransportInterface() {}

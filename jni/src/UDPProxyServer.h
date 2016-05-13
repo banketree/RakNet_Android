@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief A RakNet plugin performing networking to communicate with UDPProxyServer. It allows UDPProxyServer to control our instance of UDPForwarder.
-///
+/// 代理服务器
 
 
 #include "NativeFeatureIncludes.h"
@@ -31,7 +31,7 @@ class UDPProxyServer;
 
 /// Callback to handle results of calling UDPProxyServer::LoginToCoordinator()
 /// \ingroup UDP_PROXY_GROUP
-struct UDPProxyServerResultHandler
+struct UDPProxyServerResultHandler //服务端返回处理
 {
 	UDPProxyServerResultHandler() {}
 	virtual ~UDPProxyServerResultHandler() {}
@@ -116,7 +116,6 @@ protected:
 	UDPProxyServerResultHandler *resultHandler;
 	unsigned short socketFamily;
 	RakString serverPublicIp;
-
 };
 
 } // End namespace

@@ -12,7 +12,7 @@
 /// \brief Set and network team selection (supports peer to peer or client/server)
 /// \details Automatically handles transmission and resolution of team selection, including team switching and balancing
 /// \deprecated Use TeamManager intead
-///
+///团队平衡
 
 
 #include "NativeFeatureIncludes.h"
@@ -50,7 +50,7 @@ typedef unsigned char TeamId;
 /// Usage: TODO
 /// \deprecated Use TeamManager intead
 /// \ingroup TEAM_BALANCER_GROUP
-class RAK_DLL_EXPORT TeamBalancer : public PluginInterface2
+class RAK_DLL_EXPORT TeamBalancer : public PluginInterface2 //设置网络和团队的选择（支持对等或客户机/服务器），信息自动处理团
 {
 public:
 	// GetInstance() and DestroyInstance(instance*)

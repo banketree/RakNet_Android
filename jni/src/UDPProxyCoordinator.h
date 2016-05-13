@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Essentially maintains a list of servers running UDPProxyServer, and some state management for UDPProxyClient to find a free server to forward datagrams
-///
+///代理协调
 
 
 #include "NativeFeatureIncludes.h"
@@ -34,7 +34,7 @@ namespace RakNet
 	/// The UDPProxyClient connects to UDPProxyCoordinator to get a list of servers running UDPProxyServer, and the coordinator will relay our forwarding request
 	/// \brief Middleman between UDPProxyServer and UDPProxyClient, maintaining a list of UDPProxyServer, and managing state for clients to find an available forwarding server.
 	/// \ingroup NAT_PUNCHTHROUGH_GROUP
-	class RAK_DLL_EXPORT UDPProxyCoordinator : public PluginInterface2
+	class RAK_DLL_EXPORT UDPProxyCoordinator : public PluginInterface2 //代理协调类
 	{
 	public:
 		// GetInstance() and DestroyInstance(instance*)
@@ -107,7 +107,6 @@ namespace RakNet
 		DataStructures::OrderedList<SenderAndTargetAddress, ForwardingRequest*, ForwardingRequestComp> forwardingRequestList;
 
 		RakNet::RakString remoteLoginPassword;
-
 	};
 
 } // End namespace

@@ -5,6 +5,7 @@ Release date: ?
 This code is public domain (no copyright).
 You can do whatever you want with it.
 *****************************************************************************/
+//µ¥»÷
 #if defined(_WIN32)
 #include <conio.h> /* kbhit(), getch() */
 

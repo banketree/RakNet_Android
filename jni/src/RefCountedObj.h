@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief \b Reference counted object. Very simple class for quick and dirty uses.
-///
+///引用计数
 
 
 

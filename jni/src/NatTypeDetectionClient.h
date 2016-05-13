@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief Contains the NAT-type detection code for the client
-///
+/// 网络类型匹配
 
 
 #include "NativeFeatureIncludes.h"
@@ -43,7 +43,7 @@ struct Packet;
 	/// \sa NatTypeDetectionServer
 	/// \ingroup NAT_TYPE_DETECTION_GROUP
 	class RAK_DLL_EXPORT NatTypeDetectionClient : public PluginInterface2, public RNS2EventHandler
-	{
+	{ //客户端
 	public:
 
 		// GetInstance() and DestroyInstance(instance*)
@@ -87,8 +87,6 @@ struct Packet;
 		void OnTestPortRestricted(Packet *packet);
 		SystemAddress serverAddress;
 	};
-
-
 }
 
 

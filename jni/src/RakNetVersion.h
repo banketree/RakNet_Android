@@ -7,7 +7,7 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  *
  */
-
+//°æ±¾
 #define RAKNET_VERSION "4.081"
 #define RAKNET_VERSION_NUMBER 4.081
 #define RAKNET_VERSION_NUMBER_INT 4081

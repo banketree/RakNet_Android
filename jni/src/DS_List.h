@@ -12,7 +12,7 @@
 /// \internal
 /// \brief Array based list.  
 /// \details Usually the Queue class is used instead, since it has all the same functionality and is only worse at random access.
-///
+///ап╠М
 
 
 #ifndef __LIST_H

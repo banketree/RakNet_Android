@@ -10,7 +10,7 @@
 
 /// \file CommandParserInterface.h
 /// \brief Contains CommandParserInterface , from which you derive custom command parsers
-///
+/// 通用解析接口
 
 
 #ifndef __COMMAND_PARSER_INTERFACE

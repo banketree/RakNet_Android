@@ -10,7 +10,7 @@
 
 
 /// \file EpochTimeToString.h
-///
+/// 时间值转换
 
 
 #ifndef __EPOCH_TIME_TO_STRING_H

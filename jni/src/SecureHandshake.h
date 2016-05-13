@@ -9,7 +9,7 @@
  */
 
 /// \file
-///
+///√‹‘øŒ’ ÷
 
 
 #ifndef SECURE_HANDSHAKE_H

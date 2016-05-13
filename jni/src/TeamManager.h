@@ -16,7 +16,7 @@
 /// Teams contain properties including the number of team members per team, whether or not tagged teams must have equal numbers of members, and if a team is locked or not to certain entry conditions
 /// Team members contain properties including which teams they are on and which teams they want to join if a team is not immediately joinable
 /// Advanced functionality includes the ability for a team member to be on multiple teams simultaneously, the ability to swap teams with other members, and the ability to resize the number of members supported per team
-///
+///团队管理
 
 
 #include "NativeFeatureIncludes.h"
@@ -128,7 +128,7 @@ struct TeamSelection
 /// When using with ReplicaManager3, call TM_TeamMember::ReferenceTeamMember() in Replica3::DeserializeConstruction() and TM_TeamMember::DeserializeConstruction() in Replica3::PostDeserializeConstruction()
 /// There is otherwise no need to manually serialize the class, as operations are networked internally.
 /// \ingroup TEAM_MANAGER_GROUP
-class RAK_DLL_EXPORT TM_TeamMember
+class RAK_DLL_EXPORT TM_TeamMember //包含数据和操作(管理团队、团队成员、你的游戏)
 {
 public:
 	// GetInstance() and DestroyInstance(instance*)
@@ -308,7 +308,7 @@ protected:
 /// When using with ReplicaManager3, call TM_Team::ReferenceTeam() in Replica3::DeserializeConstruction() and TM_Team::DeserializeConstruction() in Replica3::PostDeserializeConstruction()
 /// There is otherwise no need to manually serialize the class, as operations are networked internally.
 /// \ingroup TEAM_MANAGER_GROUP
-class RAK_DLL_EXPORT TM_Team
+class RAK_DLL_EXPORT TM_Team //一个团队
 {
 public:
 	// GetInstance() and DestroyInstance(instance*)
@@ -419,7 +419,7 @@ protected:
 /// \details Each TM_World instance is independent of other TM_World world instances. This enables you to host multiple games on a single computer.
 /// Not currently supported to have the same TM_Team or TM_TeamMember in more than one world at a time, but easily added on request.
 /// \ingroup TEAM_MANAGER_GROUP
-class TM_World
+class TM_World //存储一个团队列表，负责平衡。
 {
 public:
 	TM_World();
@@ -618,7 +618,7 @@ protected:
 /// 9. As the peer to peer session host changes, call SetHost() (Not necessary if using FullyConnectedMesh2). If using client/server, you must set the host<BR>
 /// \note This replaces TeamBalancer. You cannot use TeamBalancer and TeamManager at the same time.
 /// \ingroup TEAM_MANAGER_GROUP
-class RAK_DLL_EXPORT TeamManager : public PluginInterface2
+class RAK_DLL_EXPORT TeamManager : public PluginInterface2 //自动化网络与团队列表管理
 {
 public:
 	// GetInstance() and DestroyInstance(instance*)

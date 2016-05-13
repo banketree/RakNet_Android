@@ -10,7 +10,7 @@
 
 /// \file DS_HuffmanEncodingTree.h
 /// \brief \b [Internal] Generates a huffman encoding tree, used for string and global compression.
-///
+///¹þ·òÂü±àÂë
 
 
 #ifndef __HUFFMAN_ENCODING_TREE
@@ -21,6 +21,7 @@
 #include "BitStream.h"
 #include "Export.h"
 #include "DS_LinkedList.h" 
+//
 
 namespace RakNet
 {

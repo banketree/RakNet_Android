@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief \b [Internal] Defines the default maximum transfer unit.
-///
+///定义默认的最大、最小传输单元
 
 
 #ifndef MAXIMUM_MTU_SIZE

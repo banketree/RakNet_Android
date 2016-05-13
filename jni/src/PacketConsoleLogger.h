@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief This will write all incoming and outgoing network messages to the log command parser, which can be accessed through Telnet
-///
+/// 包控制日志
 
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_LogCommandParser==1 && _RAKNET_SUPPORT_PacketLogger==1

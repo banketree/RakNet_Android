@@ -24,6 +24,7 @@
 #include "RakNetTypes.h"
 #include "Export.h"
 
+//控制服务器
 namespace RakNet
 {
 /// Forward declarations
@@ -36,7 +37,7 @@ class CommandParserInterface;
 /// The TransportInterface will be used to send data between the server and the client.  The connecting client must support the
 /// protocol used by your derivation of TransportInterface . TelnetTransport and RakNetTransport are two such derivations .
 /// When a command is sent by a remote console, it will be processed by your implementations of CommandParserInterface
-class RAK_DLL_EXPORT ConsoleServer
+class RAK_DLL_EXPORT ConsoleServer //远程控制台应用程序
 {
 public:
 	// GetInstance() and DestroyInstance(instance*)

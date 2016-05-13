@@ -10,7 +10,7 @@
 
 /// \file
 /// \brief A simple TCP based server allowing sends and receives.  Can be connected by any TCP client, including telnet.
-///
+/// tcp操作接口
 
 
 #include "NativeFeatureIncludes.h"
@@ -48,7 +48,7 @@ struct RemoteClient;
 
 /// \internal
 /// \brief As the name says, a simple multithreaded TCP server.  Used by TelnetTransport
-class RAK_DLL_EXPORT TCPInterface
+class RAK_DLL_EXPORT TCPInterface //简单的TCP服务器多线程
 {
 public:
 	// GetInstance() and DestroyInstance(instance*)
@@ -216,7 +216,7 @@ protected:
 };
 
 /// Stores information about a remote client.
-struct RemoteClient
+struct RemoteClient //存储有关远程客户端的信息
 {
 	RemoteClient() {
 #if OPEN_SSL_CLIENT_SUPPORT==1

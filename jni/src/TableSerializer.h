@@ -20,6 +20,7 @@ namespace RakNet
 	class BitStream;
 }
 
+//±Ì–Ú¡–ªØ
 namespace RakNet
 {
 

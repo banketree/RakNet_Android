@@ -7,7 +7,7 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  *
  */
-
+//获取一个字符
 #if   defined(_WIN32)
 #include <conio.h> /* getche() */
 

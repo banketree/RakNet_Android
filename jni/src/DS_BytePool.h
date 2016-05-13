@@ -9,7 +9,7 @@
  */
 
 /// \file DS_BytePool.h
-///
+///×Ö½Ú¹¤¾ß
 
 
 #ifndef __BYTE_POOL_H

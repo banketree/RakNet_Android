@@ -20,6 +20,7 @@
 #include "DS_ThreadsafeAllocatingQueue.h"
 #include "ThreadPool.h"
 
+//发送到线程
 namespace RakNet
 {
 class SendToThread

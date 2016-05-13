@@ -9,7 +9,7 @@
  */
 
 /// \file FormatString.h
-///
+///×Ö·û¸ñÊ½»¯
 
 
 #ifndef __FORMAT_STRING_H

@@ -7,7 +7,7 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  *
  */
-
+//引用指针 管理
 #ifndef __RAKNET_SMART_PTR_H
 #define __RAKNET_SMART_PTR_H
 

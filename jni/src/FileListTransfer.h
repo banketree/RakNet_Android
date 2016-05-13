@@ -10,7 +10,7 @@
 
 /// \file FileListTransfer.h
 /// \brief A plugin to provide a simple way to compress and incrementally send the files in the FileList structure.
-///
+///文件列表传输
 
 
 #include "NativeFeatureIncludes.h"

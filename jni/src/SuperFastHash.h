@@ -10,7 +10,7 @@
 
 #ifndef __SUPER_FAST_HASH_H
 #define __SUPER_FAST_HASH_H
-
+//¿ìËÙhaxi
 #include <stdio.h>
 #include "NativeTypes.h"
 

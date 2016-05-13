@@ -7,7 +7,7 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  *
  */
-
+//base64±àÂë
 #ifndef __BASE_64_ENCODER_H
 #define __BASE_64_ENCODER_H
 

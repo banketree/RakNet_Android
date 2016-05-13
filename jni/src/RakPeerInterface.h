@@ -39,6 +39,7 @@ class NetworkIDManager;
 /// The primary interface for RakNet, RakPeer contains all major functions for the library.
 /// See the individual functions for what the class can do.
 /// \brief The main interface for network communications
+//网络交流接口
 class RAK_DLL_EXPORT RakPeerInterface
 {
 public:

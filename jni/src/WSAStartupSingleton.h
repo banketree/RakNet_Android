@@ -11,6 +11,7 @@
 #ifndef __WSA_STARTUP_SINGLETON_H
 #define __WSA_STARTUP_SINGLETON_H
 
+//
 class WSAStartupSingleton
 {
 public:

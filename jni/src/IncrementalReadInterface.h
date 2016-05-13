@@ -13,7 +13,7 @@
 
 #include "FileListNodeContext.h"
 #include "Export.h"
-
+//增量读取接口
 namespace RakNet
 {
 
